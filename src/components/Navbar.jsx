@@ -22,7 +22,7 @@ const Navbar = ({children})=> {
                     <Link to="" className="font-medium hover:text-primary" >Pricing</Link>
                     <i className="fa-solid fa-caret-down"></i>
                 </button>
-                <Link to="" className="font-medium hover:text-primary">Macky</Link>
+                <Link to="" className="font-medium hover:text-primary">Solutions</Link>
                 <Link to="" className="font-medium hover:text-primary">Customers</Link>
                 <button className='flex gap-2 items-center'onClick={()=>setResources(!resources)}>
                     <Link to="" className="font-medium hover:text-primary">Resources</Link>
